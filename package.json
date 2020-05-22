@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/spencermountain/wtf_wikipedia.git"
   },
-  "main": "builds/wtf_wikipedia.js",
+  "main": "src/index.js",
   "module": "builds/wtf_wikipedia.mjs",
   "unpkg": "builds/wtf_wikipedia-client.min.js",
   "browser": "builds/wtf_wikipedia-client.js",
@@ -50,7 +50,9 @@
     "singleQuote": true,
     "printWidth": 120
   },
-  "dependencies": {},
+  "dependencies": {
+    "mathjs": "^7.0.0"
+  },
   "devDependencies": {
     "@babel/core": "7.9.0",
     "@babel/preset-env": "7.9.5",

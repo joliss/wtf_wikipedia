@@ -212,13 +212,13 @@ test('covid-1', function (t) {
   let str = `
   {{Medical cases chart
     |numwidth=mw
-    
+
     |disease=Green Flu
     |location=Savannah|location2=Georgia|location3=United States
     |outbreak=2009 Green Flu outbreak
-    
+
     |recoveries=n
-    
+
     |data=
     2009-04-13;;;42;;;42;firstright1=y
     2009-04-14;;;356;;;356;+748%
